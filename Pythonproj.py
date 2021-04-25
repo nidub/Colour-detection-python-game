@@ -1,4 +1,9 @@
-from flask import Flask, render_template
+from flask import Flask, render_template, request, json
+import cv2
+import pyautogui
+import numpy as np
+
+
 app = Flask(__name__)
 
 @app.route('/')
