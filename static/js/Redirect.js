@@ -14,7 +14,7 @@ function callbackFunc(response) {
 }
     function myFunction() {
       postData('data to process');
-      // window.location.href = "https://chromedino.com/";
+      //window.location.href = "https://chromedino.com/";
       
       // var objShell = new ActiveXObject("shell.application");
       // objShell.ShellExecute("cmd.exe", "C:Users\\91887\\AppData\\Local\\Programs\\Python\\Python39\\python.exe", "C:\\WINDOWS\\system32", "open", 1);

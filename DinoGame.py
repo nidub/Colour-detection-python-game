@@ -3,6 +3,7 @@ import pyautogui
 import numpy as np
 
 def rundino():
+    #print("Dino game started")
     lowerBound=np.array([71,112,112])
     upperBound=np.array([128,255,255])
 
@@ -33,6 +34,4 @@ def rundino():
     
     cap.release()
     cv2.destroyAllWindows()    
-
-rundino()
 
